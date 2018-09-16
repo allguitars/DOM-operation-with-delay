@@ -48,5 +48,5 @@ function shuffleLoop(nodes, currentIndex) {
       logging(nodes, currentIndex, randomIndex); // Logging for observation
       shuffleLoop(nodes, currentIndex);
     }
-  }, 200);
+  }, 1000);
 }
